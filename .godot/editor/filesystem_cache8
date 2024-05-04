@@ -1,3 +1,38 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714839539
+::res://::1714841726
 icon.svg::CompressedTexture2D::6189111008042893834::1714839528::1714839541::1::::<><>::
+::res://script/::1714841594
+player.tscn::PackedScene::3780812071920428972::1714841594::0::1::::<><>::uid://cugb0vxwiemyk::::res://icon.svg<>res://script/player.gd
+player.gd::GDScript::-1::1714841094::0::1::::<>CharacterBody2D<>::
+::res://Sprout Lands - Sprites - Basic pack/::1714841726
+read_me.txt::TextFile::-1::1657796114::0::1::::<><>::
+::res://Sprout Lands - Sprites - Basic pack/Characters/::1714841726
+Basic Charakter Actions.png::CompressedTexture2D::6328983342708584745::1646983740::1714841730::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::8487915883855640522::1644626582::1714841730::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::4287557784953819952::1688758316::1714841730::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::7750600576768226066::1686867318::1714841730::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::6273213758186093080::1642808610::1714841730::1::::<><>::
+Tools.png::CompressedTexture2D::3822412321760735284::1646983962::1714841730::1::::<><>::
+::res://Sprout Lands - Sprites - Basic pack/Objects/::1714841726
+Basic_Furniture.png::CompressedTexture2D::2502072898598548204::1640138606::1714841730::1::::<><>::
+Basic_Grass_Biom_things.png::CompressedTexture2D::5483151805843432310::1641350964::1714841730::1::::<><>::
+Basic_Plants.png::CompressedTexture2D::1645227238241032455::1640136244::1714841730::1::::<><>::
+Basic_tools_and_meterials.png::CompressedTexture2D::3816218507728683812::1646984288::1714841730::1::::<><>::
+Chest.png::CompressedTexture2D::519928534506554452::1643080886::1714841730::1::::<><>::
+Egg_item.png::CompressedTexture2D::2280233243395754515::1686868278::1714841730::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::784785660957066593::1688758142::1714841730::1::::<><>::
+Paths.png::CompressedTexture2D::7063516121039608187::1642807764::1714841730::1::::<><>::
+Simple_Milk_and_grass_item.png::CompressedTexture2D::980584622701739329::1642888086::1714841730::1::::<><>::
+Wood_Bridge.png::CompressedTexture2D::1945641747753729852::1642807830::1714841730::1::::<><>::
+::res://Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/::1714841726
+Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::931650647623707508::1689705158::1714841730::1::::<><>::
+Sprout Lands defautlt palette.png::CompressedTexture2D::6903233038179223269::1689705086::1714841730::1::::<><>::
+::res://Sprout Lands - Sprites - Basic pack/Tilesets/::1714841726
+Bitmask references 1.png::CompressedTexture2D::877322320134573414::1702874742::1714841730::1::::<><>::
+Bitmask references 2.png::CompressedTexture2D::2631043708830373024::1702874746::1714841730::1::::<><>::
+Fences.png::CompressedTexture2D::9018406561251408864::1640137532::1714841730::1::::<><>::
+Grass.png::CompressedTexture2D::1983429494335747033::1702889452::1714841730::1::::<><>::
+Hills.png::CompressedTexture2D::435983545952343409::1702889062::1714841730::1::::<><>::
+Tilled_Dirt.png::CompressedTexture2D::245686936068895227::1714486808::1714841730::1::::<><>::
+Water.png::CompressedTexture2D::1537954640413055157::1640137122::1714841730::1::::<><>::
+Wooden House.png::CompressedTexture2D::2593191312729841673::1640138646::1714841730::1::::<><>::

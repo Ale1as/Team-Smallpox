@@ -1,0 +1,177 @@
+[gd_scene load_steps=21 format=3 uid="uid://bt4pomlvcyc8c"]
+
+[ext_resource type="Script" path="res://script/player.gd" id="1_kjrrs"]
+[ext_resource type="Texture2D" uid="uid://ds6uy8dciijg1" path="res://Sprout Lands - Sprites - Basic pack/Characters/Basic Charakter Spritesheet.png" id="2_phpx4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7x1j4"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(0, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2hkmv"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(48, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l8pps"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(96, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bvuro"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(144, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lspmy"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u5vut"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h2uer"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c82jp"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v1vts"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(0, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tii4u"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(48, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hhv1q"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(96, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qbi15"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(144, 96, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cl1ix"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(0, 144, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0s8r"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(48, 144, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uaak1"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(96, 144, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ui42i"]
+atlas = ExtResource("2_phpx4")
+region = Rect2(144, 144, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bcre1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7x1j4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2hkmv")
+}],
+"loop": true,
+"name": &"back",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l8pps")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bvuro")
+}],
+"loop": true,
+"name": &"back_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lspmy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u5vut")
+}],
+"loop": true,
+"name": &"front",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2uer")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c82jp")
+}],
+"loop": true,
+"name": &"front_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v1vts")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tii4u")
+}],
+"loop": true,
+"name": &"left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hhv1q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qbi15")
+}],
+"loop": true,
+"name": &"left_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cl1ix")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o0s8r")
+}],
+"loop": true,
+"name": &"right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uaak1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ui42i")
+}],
+"loop": true,
+"name": &"right_walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7a3ha"]
+radius = 33.0606
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_kjrrs")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -9)
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_bcre1")
+animation = &"right"
+autoplay = "front"
+
+[node name="Camera2D" type="Camera2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_7a3ha")
